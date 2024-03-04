@@ -9,5 +9,6 @@ public class LazyInitializedSingleton {
             instance = new LazyInitializedSingleton();
         }
         return instance;
+
     }
 }
